@@ -70,3 +70,26 @@
 .project-card h2 {
   margin-top: 0;
 }
+.empty-state {
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #334155;
+  border-radius: 1rem;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.retry-button {
+  padding: 0.75rem 1.25rem;
+  border: 2px solid #38bdf8;
+  border-radius: 0.5rem;
+  background: transparent;
+  color: #38bdf8;
+  cursor: pointer;
+}
+
+.retry-button:focus {
+  outline: 3px solid #f8fafc;
+  outline-offset: 3px;
+}
