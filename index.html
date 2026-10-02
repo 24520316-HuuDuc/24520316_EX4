@@ -13,16 +13,60 @@
 
   <main class="component">
 
+    <!-- Live Data State -->
     <section
-      class="loading-state"
-      aria-label="Loading content"
+      class="live-state"
+      aria-labelledby="live-title"
     >
 
-      <div class="skeleton-item"></div>
+      <header>
+        <h1 id="live-title">
+          Developer Projects
+        </h1>
 
-      <div class="skeleton-item"></div>
+        <div class="metadata">
+          <span class="badge">3 Projects</span>
+          <span class="badge">Updated Today</span>
+          <span class="badge">Active</span>
+        </div>
+      </header>
 
-      <div class="skeleton-item"></div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h2>Enterprise Web System</h2>
+
+          <p>
+            Responsive web application for business users.
+          </p>
+
+          <span class="badge">Frontend</span>
+        </article>
+
+
+        <article class="project-card">
+          <h2>REST API Platform</h2>
+
+          <p>
+            RESTful API built with Node.js and Express.
+          </p>
+
+          <span class="badge">Backend</span>
+        </article>
+
+
+        <article class="project-card">
+          <h2>Accessibility Project</h2>
+
+          <p>
+            Accessible interface designed for keyboard users.
+          </p>
+
+          <span class="badge">Accessibility</span>
+        </article>
+
+      </div>
 
     </section>
 
